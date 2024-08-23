@@ -1,0 +1,46 @@
+/**
+ *	FirstAssignment.java
+ *	Display a brief description of your summer vacation on the screen.
+ *
+ *	To compile Linux:	javac -cp .:mvAcm.jar FirstAssignment.java
+ *	To execute Linux:	java -cp .:mvAcm.jar FirstAssignment
+ *
+ *	To compile MS Powershell:	javac -cp ".;mvAcm.jar" FirstAssignment.java
+ *	To execute MS Powershell:	java -cp ".;mvAcm.jar" FirstAssignment
+ *
+ *	@author	Your name
+ *	@since	Today's date
+ */
+import java.awt.Font;
+
+import acm.program.GraphicsProgram;
+import acm.graphics.GLabel;
+
+public class FirstAssignment extends GraphicsProgram {
+    
+    public void run() {
+    	//	The font to be used
+    	Font f = new Font("Serif", Font.BOLD, 18);
+    	
+    	//	Line 1
+    	GLabel s1 = new GLabel("What I did on my summer vacation ...", 10, 20);
+    	s1.setFont(f);
+    	add(s1);
+    	    	
+    	//	Continue adding lines until you have 12 to 15 lines
+    	
+    	GLabel s1 = new GLabel("In the first few weeks, ", 10, 25);
+    	GLabel s1 = new GLabel("I relaxed at home and chill", 10, 30);
+    	GLabel s1 = new GLabel("After that, I attended a virtual summer school about coding", 10, 35);
+    	GLabel s1 = new GLabel("I learned html,css, and javascript", 10, 40);
+    	GLabel s1 = new GLabel("Then I went to Seattle with my family", 10, 45);
+    	GLabel s1 = new GLabel("After I came back", 10, 50);
+    	GLabel s1 = new GLabel("I stayed at home to preview for my classes next semester.", 10, 55);
+    	GLabel s1 = new GLabel("I also draw and play the piano in spare time", 10, 60);
+    	GLabel s1 = new GLabel("and of course sleep a lot", 10, 65);
+    	GLabel s1 = new GLabel("I self studied APCSP", 10, 70);
+    	GLabel s1 = new GLabel("It's a pretty boring summer.", 10, 75);
+    	
+    }
+    
+}
